@@ -341,11 +341,16 @@ export default function TrangChu() {
             value={newPlayerName}
             onChange={e => setNewPlayerName(e.target.value)}
             onKeyDown={onInputKey}
-            placeholder="Nhập tên người chơi..."
+            placeholder="Nhập tên người chơi"
+            aria-label="Tên người chơi"
             maxLength={30}
             enterKeyHint="done"
           />
-          <button className="add-btn" onClick={addPlayer}>
+          <button
+            className={`add-btn ${newPlayerName.trim() ? '' : 'is-empty'}`}
+            onClick={addPlayer}
+            aria-label="Thêm người chơi"
+          >
             <IconPlus />
             <span className="hide-sm">Thêm</span>
           </button>
