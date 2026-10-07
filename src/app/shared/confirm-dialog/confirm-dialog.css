@@ -1,0 +1,64 @@
+.confirm {
+  padding: 24px 24px 26px;
+  text-align: center;
+}
+
+.confirm-diamonds {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  margin-bottom: 18px;
+}
+
+.confirm-diamonds span {
+  width: 6px;
+  height: 6px;
+  background: #fcd34d;
+  transform: rotate(45deg);
+  border-radius: 1px;
+}
+
+.confirm-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 14px;
+  border-radius: 18px;
+  background: var(--grad-primary);
+  color: #fff;
+  box-shadow: 0 0 0 6px var(--primary-soft), 0 10px 20px -8px rgba(5, 150, 105, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.confirm-title {
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.confirm-message {
+  margin: 0 0 26px;
+  padding: 0 4px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.confirm-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.confirm-actions .btn {
+  height: 46px;
+}

@@ -1,0 +1,9 @@
+.guest-main {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 68px);
+}
+
+.guest-content {
+  flex: 1;
+}

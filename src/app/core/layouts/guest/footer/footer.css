@@ -1,0 +1,37 @@
+.ftr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 20px;
+  border-top: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  font-size: 13px;
+}
+
+.ftr-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--primary-soft);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ftr-icon svg {
+  width: 15px;
+  height: 15px;
+}
+
+.ftr-muted {
+  font-weight: 500;
+  color: var(--faint);
+}
+
+.ftr-name {
+  font-weight: 700;
+  color: var(--primary-dark);
+}
