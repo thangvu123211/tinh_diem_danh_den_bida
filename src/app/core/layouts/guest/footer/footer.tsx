@@ -8,7 +8,14 @@ export default function Footer() {
         <IconCue />
       </span>
       <span className="ftr-muted">Designed by</span>
-      <span className="ftr-name">Vu Viet Thang</span>
+      <a
+        className="ftr-name"
+        href="https://trang-ca-nhan-vvt.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Vu Viet Thang
+      </a>
     </footer>
   );
 }
